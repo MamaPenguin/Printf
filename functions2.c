@@ -38,7 +38,7 @@ int print_pointer(va_list types, char buffer[],
 		length++;
 	}
 
-if ((flags & F_ZERO) && !(flags & F_MINUS))
+	if ((flags & F_ZERO) && !(flags & F_MINUS))
 		padd = '0';
 	if (flags & F_PLUS)
 		extra_c = '+', length++;
